@@ -1,1 +1,1 @@
-# pomodoro-clock
+# The Odin Project pomodoro-clock
