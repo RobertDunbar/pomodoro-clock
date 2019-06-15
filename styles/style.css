@@ -1,0 +1,98 @@
+/* Pomodoro timer css style sheet */
+
+body {
+  background-image: url("../images/beige-tiles.png");
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  line-height: 70px;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 35px;
+  color: lightgrey;
+  font-weight: 700;
+}
+
+button:hover {
+  color: rgb(156, 156, 156);
+}
+
+.control-buttons {
+  margin: 20px;
+  background-color: rgb(10, 48, 59);
+  border: none;
+  color: lightgrey;
+}
+.user-select {
+  display: inline-block;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.select-digits {
+  font-family: monospace;
+  font-size: 50px;
+  color: lightgrey;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.select-button {
+  color: lightgrey;
+  margin: 15px;
+  background-color: rgb(10, 48, 59);
+  border: none;
+}
+
+#container {
+  width: 500px;
+  height: 620px;
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#heading-contain {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(10, 48, 59);
+  border: 2px solid rgb(34, 62, 83);
+  border-radius: 7px;
+  box-shadow: 4px 4px 15px 6px rgb(112, 112, 112);
+}
+
+#session-contain {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(10, 48, 59);
+  border: 2px solid rgb(34, 62, 83);
+  border-radius: 7px;
+  box-shadow: 4px 4px 15px 6px rgb(112, 112, 112);
+  margin-top: 20px;
+}
+
+#clock-contain {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(10, 48, 59);
+  border: 2px solid rgb(34, 62, 83);
+  border-radius: 7px;
+  box-shadow: 4px 4px 15px 6px rgb(112, 112, 112);
+  margin-top: 30px;
+}
+
+#main-timer {
+  font-family: monospace;
+  font-size: 110px;
+  font-weight: 700;
+  color: lightgreen;
+  padding-top: 70px;
+  margin-bottom: 50px;
+}

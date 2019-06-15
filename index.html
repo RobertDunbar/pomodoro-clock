@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Pomodoro timer index.html file-->
+<html>
+  <head>
+    <title>The Odin Project Pomodoro project</title>
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="heading-contain">
+        <h1>Pomodoro Clock</h1>
+      </div>
+      <div id="session-contain">
+        <div class="user-select">
+          <h3>Session</h3>
+          <p class="select-digits" id="session-digits">25</p>
+          <button class="select-button" id="decrease-session">
+            <i class="fas fa-minus-circle fa-3x"></i>
+          </button>
+          <button class="select-button" id="increase-session">
+            <i class="fas fa-plus-circle fa-3x"></i>
+          </button>
+        </div>
+        <div class="user-select">
+          <h3>Break</h3>
+          <p class="select-digits" id="break-digits">5</p>
+          <button class="select-button" id="decrease-break">
+            <i class="fas fa-minus-circle fa-3x"></i>
+          </button>
+          <button class="select-button" id="increase-break">
+            <i class="fas fa-plus-circle fa-3x"></i>
+          </button>
+        </div>
+      </div>
+      <div id="clock-contain">
+        <h1 id="main-timer">25:00</h1>
+        <button class="control-buttons" id="play-button">
+          <i class="fas fa-play fa-3x"></i>
+        </button>
+        <button class="control-buttons" id="reset-button">
+          <i class="fas fa-sync fa-3x"></i>
+        </button>
+        <button class="control-buttons" id="pause-button">
+          <i class="fas fa-pause fa-3x"></i>
+        </button>
+        <button class="control-buttons" id="stop-button">
+          <i class="fas fa-stop fa-3x"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/script.js"></script>
+</html>
